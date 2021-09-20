@@ -13,8 +13,8 @@ MIT License
 ## How to run
 
 ```bash
-pip3 install -r requirements.txt
-python3 productpage.py 9080
+pip install -r requirements.txt
+python productpage.py 9080
 ```
 
 ## How to run with Docker
