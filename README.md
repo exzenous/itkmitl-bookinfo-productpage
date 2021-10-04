@@ -12,6 +12,8 @@ MIT License
 
 ## How to run
 
+* **Depends on systems**, may need to change to ```python3``` and ```pip3```
+
 ```bash
 pip install -r requirements.txt
 python productpage.py 9080
@@ -24,7 +26,7 @@ python productpage.py 9080
 docker build -t productpage .
 
 # Run productpage service on port 8083
-docker run -d --name productpage -p 8083:9080 productpage
+docker run -d --name productpage -p 8083:9080 productpage 
 ```
 
 * Test with path `/productpage` and `/health`
