@@ -31,6 +31,15 @@ docker run -d --name productpage -p 8083:9080 productpage
 
 * Test with path `/productpage` and `/health`
 
+## Available Environment Variables
+- DETAILS_HOSTNAME : ```string```
+    - Ex. http://details-serv:9080
+- RATINGS_HOSTNAME : ```string```
+    - Ex. http://ratings-serv:9080
+- REVIEWS_HOSTNAME : ```string```
+    - Ex. http://reviews-serv:9080
+- FLOOD_FACTOR : ```int```
+
 ## Website
 
 [Opsta (Thailand) Co., Ltd.](https://www.opsta.co.th)
