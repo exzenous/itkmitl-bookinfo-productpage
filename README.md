@@ -40,6 +40,12 @@ docker run -d --name productpage -p 8083:9080 productpage
     - Ex. http://reviews-serv:9080
 - FLOOD_FACTOR : ```int```
 
+## How to run with Docker Compose
+
+```bash
+docker-compose up
+```
+
 ## Website
 
 [Opsta (Thailand) Co., Ltd.](https://www.opsta.co.th)
