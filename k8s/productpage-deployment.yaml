@@ -19,5 +19,12 @@ spec:
       - name: bookinfo-dev-productpage
         image: ghcr.io/exzenous/bookinfo-productpage:dev
         imagePullPolicy: Always 
+        env:
+          - name: DETAILS_HOSTNAME
+            value: "http://bookinfo-dev-details:9080"
+          - name: RATINGS_HOSTNAME
+            value: "http://bookinfo-dev-ratings:9080"
+          - name: REVIEWS_HOSTNAME
+            value: "http://bookinfo-dev-reviews:9080"
       imagePullSecrets:
       - name: registry-bookinfo
